@@ -126,7 +126,7 @@ kubectl get deployments
 kubectl expose deployment frontend --type=LoadBalancer --name=publicfrontend
 kubectl get services publicfrontend
 # Note down the External IP, such as
-# a5e34958a2ca14b91b020d8aeba87fbb-1366498583.us-east-1.elb.amazonaws.com
+# a5e34958a2ca14b91b020d8aeba87fbb-1366498583.us-east-1.elb.amazonaws.com ad
 # Check name, ClusterIP, and External IP of all deployments
 kubectl get services
 ```
